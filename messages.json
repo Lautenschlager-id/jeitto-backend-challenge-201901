@@ -1,0 +1,30 @@
+{
+	"maintenance": {
+		"code": "0000",
+		"message": "This service is currently unavailable due to an ongoing maintenance. Try again later."
+	},
+	"unauthorized": {
+		"code": "0001",
+		"message": "Access denied. Missing a Access Token."
+	},
+	"invalid_value": {
+		"code": "0002",
+		"message": "The value '{}' has a bad type."
+	},
+	"is_not_empty": {
+		"code": "0003",
+		"message": "The value '{}' already exists as '{}'."
+	},
+	"invalid_company": {
+		"code": "0100",
+		"message": "The company of ID '{}' does not provide any phone recharging service. These are the available company IDs: {}"
+	},
+	"invalid_company_recharge": {
+		"code": "0101",
+		"message": "The recharge of ID '{}' has not been found in the services provided by the company of ID '{}'. These are the available recharge IDs for the specified company: {}"
+	},
+	"invalid_phone_number": {
+		"code": "0102",
+		"message": "The phone number '{}' is invalid."
+	}
+}
