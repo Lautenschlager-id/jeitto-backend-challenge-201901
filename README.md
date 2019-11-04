@@ -3,6 +3,8 @@
 ## Setting up
 First, run `git clone` this repository.
 
+After installing the dependencies and starting MongoDB, run `python3 __init__.py` or `python3 -m flask run --host 127.0.0.1 --port 6969`.
+
 ### Dependencies
 Run `pip3 install -r requirements.txt` to install the requirements to run the challenge.
 
@@ -17,6 +19,8 @@ All tests are located in the folder `/tests` and it may populate some data.
 
 ## Documentation
 You can read the documentation in the file [**DOCS.md**](DOCS.md)
+
+You can change minor configurations in [**ENV.py**](ENV.py).
 
 ## Q & A
 Q: What were the main challenges you have faced during the development?
