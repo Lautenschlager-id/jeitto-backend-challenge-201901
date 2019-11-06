@@ -20,7 +20,7 @@ All tests are located in the folder `/tests` and it may populate some data.
 ## Documentation
 You can read the documentation in the file [**DOCS.md**](DOCS.md)
 
-You can change minor configurations in [**ENV.py**](ENV.py).
+You can change minor configurations in [**ENV.json**](ENV.json).
 
 ## Q & A
 Q: What were the main challenges you have faced during the development?
