@@ -59,14 +59,16 @@ class Recharge(Resource):
 				]
 
 				With filter 'product_id=lili_666':
-				{
-					"id": 1,
-					"created_at": "20191019T221015.00Z",
-					"company_id": "lilith",
-					"product_id": "lili_666",
-					"phone_number": "11940028922",
-					"value": 666.00 
-				}
+				[
+					{
+						"id": 1,
+						"created_at": "20191019T221015.00Z",
+						"company_id": "lilith",
+						"product_id": "lili_666",
+						"phone_number": "11940028922",
+						"value": 666.00 
+					}
+				]
 		"""
 		recharges = [ ]
 
