@@ -6,7 +6,7 @@ from meta import CACHE, ENV, MSG
 from utils import HttpStatus, json_response
 
 def check_maintenance(module, service):
-	"""Forces a maintenance chance for the specific service."""
+	"""Forces a maintenance check for the specific service."""
 	def decorator(f):
 		@wraps(f)
 		def wrapper(self):
